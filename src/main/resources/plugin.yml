@@ -1,0 +1,12 @@
+name: ZombieHealth
+version: '1.0.0'
+main: com.example.zombiehealth.ZombieHealthPlugin
+description: Sets zombie health to 100
+authors: [ Spongebaby666 ]
+api-version: '1.21'
+
+commands:
+  zombiehealth:
+    description: Zombie health plugin commands
+    usage: /zombiehealth <reload|status>
+    aliases: [ zh ]
